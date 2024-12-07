@@ -13,11 +13,9 @@ data/
 fake_datasets/ctabganplus/ctabganplus_credit_*
 fake_datasets/tabddpm/tabddpm_miniboone_*
 fake_datasets/tabddpm/tabddpm_higgs*
-tools/tabddpm-main/exp/higgs-small/
-tools/tabddpm-main/exp/miniboone/
+tools/tabddpm-main/exp/
+tools/tabddpm-main/exp/
 fake_datasets/smote/smote_miniboone_*
 fake_datasets/smote/smote_higgs*
 tools/smote-main/exp/higgs-small/
 tools/smote-main/exp/miniboone/
-data_scaled/
-privacy_slurm/
