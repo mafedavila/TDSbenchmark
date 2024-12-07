@@ -1,3 +1,6 @@
 [submodule "tools/autodiff-main/autodiff"]
 	path = tools/autodiff-main/autodiff
 	url = https://github.com/UCLA-Trustworthy-AI-Lab/AutoDiffusion.git
+[submodule "tools/ctabganplus-main/model"]
+	path = tools/ctabganplus-main/model
+	url = https://github.com/Team-TUD/CTAB-GAN-Plus.git
