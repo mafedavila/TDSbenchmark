@@ -1,0 +1,3 @@
+[submodule "tools/autodiff-main/autodiff"]
+	path = tools/autodiff-main/autodiff
+	url = https://github.com/UCLA-Trustworthy-AI-Lab/AutoDiffusion.git
