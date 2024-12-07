@@ -1,0 +1,377 @@
+[
+  {
+    "toolname": "ctgan",
+    "dataset": "adult",
+    "problem_type": "classification",
+    "target": "income",
+    "columns": {
+      "categorical": [
+        "workclass",
+        "education",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "gender",
+        "native-country",
+        "income"
+      ],
+      "continuous": [
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week",
+        "age"
+      ],
+      "integer": [
+        "age",
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week"
+      ],
+      "mixed": {
+        "capital-loss": [
+          0.0
+        ],
+        "capital-gain": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "tvae",
+    "dataset": "adult",
+    "problem_type": "classification",
+    "target": "income",
+    "columns": {
+      "categorical": [
+        "workclass",
+        "education",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "gender",
+        "native-country",
+        "income"
+      ],
+      "continuous": [
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week",
+        "age",
+        "native-country"
+      ],
+      "integer": [
+        "age",
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week"
+      ],
+      "mixed": {
+        "capital-loss": [
+          0.0
+        ],
+        "capital-gain": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "ctabganplus",
+    "dataset": "adult",
+    "problem_type": "classification",
+    "target": "income",
+    "columns": {
+      "categorical": [
+        "workclass",
+        "education",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "gender",
+        "native-country",
+        "income"
+      ],
+      "continuous": [
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week",
+        "age",
+        "native-country"
+      ],
+      "integer": [
+        "age",
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week"
+      ],
+      "mixed": {
+        "capital-loss": [
+          0.0
+        ],
+        "capital-gain": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "privbayes",
+    "dataset": "adult",
+    "problem_type": "classification",
+    "target": "income",
+    "columns": {
+      "categorical": [
+        "workclass",
+        "education",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "gender",
+        "native-country",
+        "income"
+      ],
+      "continuous": [
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week",
+        "age",
+        "native-country"
+      ],
+      "integer": [
+        "age",
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week"
+      ],
+      "mixed": {
+        "capital-loss": [
+          0.0
+        ],
+        "capital-gain": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "great",
+    "dataset": "adult",
+    "problem_type": "classification",
+    "target": "income",
+    "columns": {
+      "categorical": [
+        "workclass",
+        "education",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "gender",
+        "native-country",
+        "income"
+      ],
+      "continuous": [
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week",
+        "age",
+        "native-country"
+      ],
+      "integer": [
+        "age",
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week"
+      ],
+      "mixed": {
+        "capital-loss": [
+          0.0
+        ],
+        "capital-gain": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "realtabformer",
+    "dataset": "adult",
+    "problem_type": "classification",
+    "target": "income",
+    "columns": {
+      "categorical": [
+        "workclass",
+        "education",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "gender",
+        "native-country",
+        "income"
+      ],
+      "continuous": [
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week",
+        "age",
+        "native-country"
+      ],
+      "integer": [
+        "age",
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week"
+      ],
+      "mixed": {
+        "capital-loss": [
+          0.0
+        ],
+        "capital-gain": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "tabulamiddle",
+    "dataset": "adult",
+    "problem_type": "classification",
+    "target": "income",
+    "columns": {
+      "categorical": [
+        "workclass",
+        "education",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "gender",
+        "native-country",
+        "income"
+      ],
+      "continuous": [
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week",
+        "age",
+        "native-country"
+      ],
+      "integer": [
+        "age",
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week"
+      ],
+      "mixed": {
+        "capital-loss": [
+          0.0
+        ],
+        "capital-gain": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "autodiff",
+    "dataset": "adult",
+    "problem_type": "classification",
+    "target": "income",
+    "columns": {
+      "categorical": [
+        "workclass",
+        "education",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "gender",
+        "native-country",
+        "income"
+      ],
+      "continuous": [
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week",
+        "age",
+        "native-country"
+      ],
+      "integer": [
+        "age",
+        "fnlwgt",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week"
+      ],
+      "mixed": {
+        "capital-loss": [
+          0.0
+        ],
+        "capital-gain": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "age"
+      ],
+      "non_categorical": []
+    }
+  }
+]

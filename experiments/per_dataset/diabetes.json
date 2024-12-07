@@ -1,0 +1,282 @@
+[
+  {
+    "toolname": "ctgan",
+    "dataset": "diabetes",
+    "problem_type": "classification",
+    "target": "Outcome",
+    "columns": {
+      "categorical": [
+        "Outcome",
+        "Pregnancies"
+      ],
+      "continuous": [
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "tvae",
+    "dataset": "diabetes",
+    "problem_type": "classification",
+    "target": "Outcome",
+    "columns": {
+      "categorical": [
+        "Outcome",
+        "Pregnancies"
+      ],
+      "continuous": [
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "ctabganplus",
+    "dataset": "diabetes",
+    "problem_type": "classification",
+    "target": "Outcome",
+    "columns": {
+      "categorical": [
+        "Outcome",
+        "Pregnancies"
+      ],
+      "continuous": [
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "privbayes",
+    "dataset": "diabetes",
+    "problem_type": "classification",
+    "target": "Outcome",
+    "columns": {
+      "categorical": [
+        "Outcome",
+        "Pregnancies"
+      ],
+      "continuous": [
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "great",
+    "dataset": "diabetes",
+    "problem_type": "classification",
+    "target": "Outcome",
+    "columns": {
+      "categorical": [
+        "Outcome",
+        "Pregnancies"
+      ],
+      "continuous": [
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "realtabformer",
+    "dataset": "diabetes",
+    "problem_type": "classification",
+    "target": "Outcome",
+    "columns": {
+      "categorical": [
+        "Outcome",
+        "Pregnancies"
+      ],
+      "continuous": [
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "tabulamiddle",
+    "dataset": "diabetes",
+    "problem_type": "classification",
+    "target": "Outcome",
+    "columns": {
+      "categorical": [
+        "Outcome",
+        "Pregnancies"
+      ],
+      "continuous": [
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "autodiff",
+    "dataset": "diabetes",
+    "problem_type": "classification",
+    "target": "Outcome",
+    "columns": {
+      "categorical": [
+        "Outcome",
+        "Pregnancies"
+      ],
+      "continuous": [
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+      ],
+      "non_categorical": []
+    }
+  }
+]

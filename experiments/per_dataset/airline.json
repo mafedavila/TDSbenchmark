@@ -1,0 +1,191 @@
+[
+  {
+    "toolname": "ctgan",
+    "dataset": "airline",
+    "problem_type": "regression",
+    "target": "price",
+    "columns": {
+      "categorical": [
+        "airline",
+        "flight",
+        "source_city",
+        "departure_time",
+        "stops",
+        "arrival_time",
+        "destination_city",
+        "class"
+      ],
+      "continuous": [
+        "duration",
+        "days_left"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "tvae",
+    "dataset": "airline",
+    "problem_type": "regression",
+    "target": "price",
+    "columns": {
+      "categorical": [
+        "airline",
+        "flight",
+        "source_city",
+        "departure_time",
+        "stops",
+        "arrival_time",
+        "destination_city",
+        "class"
+      ],
+      "continuous": [
+        "duration",
+        "days_left"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "ctabganplus",
+    "dataset": "airline",
+    "problem_type": "regression",
+    "target": "price",
+    "columns": {
+      "categorical": [
+        "airline",
+        "flight",
+        "source_city",
+        "departure_time",
+        "stops",
+        "arrival_time",
+        "destination_city",
+        "class"
+      ],
+      "continuous": [
+        "duration",
+        "days_left"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "great",
+    "dataset": "airline",
+    "problem_type": "regression",
+    "target": "price",
+    "columns": {
+      "categorical": [
+        "airline",
+        "flight",
+        "source_city",
+        "departure_time",
+        "stops",
+        "arrival_time",
+        "destination_city",
+        "class"
+      ],
+      "continuous": [
+        "duration",
+        "days_left"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "realtabformer",
+    "dataset": "airline",
+    "problem_type": "regression",
+    "target": "price",
+    "columns": {
+      "categorical": [
+        "airline",
+        "flight",
+        "source_city",
+        "departure_time",
+        "stops",
+        "arrival_time",
+        "destination_city",
+        "class"
+      ],
+      "continuous": [
+        "duration",
+        "days_left"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "tabulamiddle",
+    "dataset": "airline",
+    "problem_type": "regression",
+    "target": "price",
+    "columns": {
+      "categorical": [
+        "airline",
+        "flight",
+        "source_city",
+        "departure_time",
+        "stops",
+        "arrival_time",
+        "destination_city",
+        "class"
+      ],
+      "continuous": [
+        "duration",
+        "days_left"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "autodiff",
+    "dataset": "airline",
+    "problem_type": "regression",
+    "target": "price",
+    "columns": {
+      "categorical": [
+        "airline",
+        "flight",
+        "source_city",
+        "departure_time",
+        "stops",
+        "arrival_time",
+        "destination_city",
+        "class"
+      ],
+      "continuous": [
+        "duration",
+        "days_left"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  }
+]

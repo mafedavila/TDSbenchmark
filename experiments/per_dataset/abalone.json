@@ -1,0 +1,219 @@
+[
+  {
+    "toolname": "ctgan",
+    "dataset": "abalone",
+    "problem_type": "regression",
+    "target": "rings",
+    "columns": {
+      "categorical": [
+        "sex"
+      ],
+      "continuous": [
+        "length",
+        "diameter",
+        "height",
+        "whole_weight",
+        "shucked_weight",
+        "viscera_weight",
+        "shell_weight"
+      ],
+      "integer": [
+        "rings"
+      ],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "length",
+        "diameter",
+        "height"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "tvae",
+    "dataset": "abalone",
+    "problem_type": "regression",
+    "target": "rings",
+    "columns": {
+      "categorical": [
+        "sex"
+      ],
+      "continuous": [
+        "length",
+        "diameter",
+        "height",
+        "whole_weight",
+        "shucked_weight",
+        "viscera_weight",
+        "shell_weight"
+      ],
+      "integer": [
+        "rings"
+      ],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "length",
+        "diameter",
+        "height"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "ctabganplus",
+    "dataset": "abalone",
+    "problem_type": "regression",
+    "target": "rings",
+    "columns": {
+      "categorical": [
+        "sex"
+      ],
+      "continuous": [
+        "length",
+        "diameter",
+        "height",
+        "whole_weight",
+        "shucked_weight",
+        "viscera_weight",
+        "shell_weight"
+      ],
+      "integer": [
+        "rings"
+      ],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "length",
+        "diameter",
+        "height"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "great",
+    "dataset": "abalone",
+    "problem_type": "regression",
+    "target": "rings",
+    "columns": {
+      "categorical": [
+        "sex"
+      ],
+      "continuous": [
+        "length",
+        "diameter",
+        "height",
+        "whole_weight",
+        "shucked_weight",
+        "viscera_weight",
+        "shell_weight"
+      ],
+      "integer": [
+        "rings"
+      ],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "length",
+        "diameter",
+        "height"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "realtabformer",
+    "dataset": "abalone",
+    "problem_type": "regression",
+    "target": "rings",
+    "columns": {
+      "categorical": [
+        "sex"
+      ],
+      "continuous": [
+        "length",
+        "diameter",
+        "height",
+        "whole_weight",
+        "shucked_weight",
+        "viscera_weight",
+        "shell_weight"
+      ],
+      "integer": [
+        "rings"
+      ],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "length",
+        "diameter",
+        "height"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "tabulamiddle",
+    "dataset": "abalone",
+    "problem_type": "regression",
+    "target": "rings",
+    "columns": {
+      "categorical": [
+        "sex"
+      ],
+      "continuous": [
+        "length",
+        "diameter",
+        "height",
+        "whole_weight",
+        "shucked_weight",
+        "viscera_weight",
+        "shell_weight"
+      ],
+      "integer": [
+        "rings"
+      ],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "length",
+        "diameter",
+        "height"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "autodiff",
+    "dataset": "abalone",
+    "problem_type": "regression",
+    "target": "rings",
+    "columns": {
+      "categorical": [
+        "sex"
+      ],
+      "continuous": [
+        "length",
+        "diameter",
+        "height",
+        "whole_weight",
+        "shucked_weight",
+        "viscera_weight",
+        "shell_weight"
+      ],
+      "integer": [
+        "rings"
+      ],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "length",
+        "diameter",
+        "height"
+      ],
+      "non_categorical": []
+    }
+  }
+]

@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+pyitlib/__init__.py
+pyitlib/discrete_random_variable.py
+pyitlib/pyitlib_version.py
+pyitlib/util.py
+pyitlib.egg-info/PKG-INFO
+pyitlib.egg-info/SOURCES.txt
+pyitlib.egg-info/dependency_links.txt
+pyitlib.egg-info/not-zip-safe
+pyitlib.egg-info/requires.txt
+pyitlib.egg-info/top_level.txt

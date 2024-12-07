@@ -1,0 +1,36 @@
+[submodule "tools/autodiff"]
+	path = tools/autodiff
+	url = https://github.com/UCLA-Trustworthy-AI-Lab/AutoDiffusion
+[submodule "tools/autodiff-main/autodiff"]
+	path = tools/autodiff-main/autodiff
+	url = https://github.com/UCLA-Trustworthy-AI-Lab/AutoDiffusion
+[submodule "tools/ctabganplus-main/ctabganplus"]
+	path = tools/ctabganplus-main/ctabganplus
+	url = https://github.com/Team-TUD/CTAB-GAN-Plus.git
+[submodule "tools/ctgan/ctgan"]
+	path = tools/ctgan/ctgan
+	url = https://github.com/sdv-dev/CTGAN.git
+[submodule "tools/ganblr-main/ganblr"]
+	path = tools/ganblr-main/ganblr
+	url = https://github.com/tulip-lab/ganblr.git
+[submodule "tools/ganblrplus-main/ganblr"]
+	path = tools/ganblrplus-main/ganblr
+	url = https://github.com/tulip-lab/ganblr.git
+[submodule "tools/goggle-main/goggle"]
+	path = tools/goggle-main/goggle
+	url = https://github.com/tennisonliu/GOGGLE.git
+[submodule "tools/great-main/great"]
+	path = tools/great-main/great
+	url = https://github.com/kathrinse/be_great.git
+[submodule "tools/realtabformer-main/model"]
+	path = tools/realtabformer-main/model
+	url = https://github.com/worldbank/REaLTabFormer.git
+[submodule "tools/tabddpm-main/tabddpm"]
+	path = tools/tabddpm-main/tabddpm
+	url = https://github.com/yandex-research/tab-ddpm.git
+[submodule "tools/tabsyn-main/tabsyn"]
+	path = tools/tabsyn-main/tabsyn
+	url = https://github.com/amazon-science/tabsyn.git
+[submodule "tools/tabsyn-main/model"]
+	path = tools/tabsyn-main/model
+	url = https://github.com/zhao-zilong/Tabula.git

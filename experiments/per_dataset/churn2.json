@@ -1,0 +1,328 @@
+[
+  {
+    "toolname": "ctgan",
+    "dataset": "churn2",
+    "problem_type": "classification",
+    "target": "Exited",
+    "columns": {
+      "categorical": [
+        "Exited",
+        "Geography",
+        "Gender",
+        "HasCrCard",
+        "IsActiveMember"
+      ],
+      "continuous": [
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "integer": [],
+      "mixed": {
+        "Balance": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "tvae",
+    "dataset": "churn2",
+    "problem_type": "classification",
+    "target": "Exited",
+    "columns": {
+      "categorical": [
+        "Exited",
+        "Geography",
+        "Gender",
+        "HasCrCard",
+        "IsActiveMember"
+      ],
+      "continuous": [
+        "RowNumber",
+        "CustomerId",
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "integer": [],
+      "mixed": {
+        "Balance": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "ctabganplus",
+    "dataset": "churn2",
+    "problem_type": "classification",
+    "target": "Exited",
+    "columns": {
+      "categorical": [
+        "Exited",
+        "Geography",
+        "Gender",
+        "HasCrCard",
+        "IsActiveMember"
+      ],
+      "continuous": [
+        "RowNumber",
+        "CustomerId",
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "integer": [],
+      "mixed": {
+        "Balance": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "privbayes",
+    "dataset": "churn2",
+    "problem_type": "classification",
+    "target": "Exited",
+    "columns": {
+      "categorical": [
+        "Exited",
+        "Geography",
+        "Gender",
+        "HasCrCard",
+        "IsActiveMember"
+      ],
+      "continuous": [
+        "RowNumber",
+        "CustomerId",
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "integer": [],
+      "mixed": {
+        "Balance": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "great",
+    "dataset": "churn2",
+    "problem_type": "classification",
+    "target": "Exited",
+    "columns": {
+      "categorical": [
+        "Exited",
+        "Geography",
+        "Gender",
+        "HasCrCard",
+        "IsActiveMember"
+      ],
+      "continuous": [
+        "RowNumber",
+        "CustomerId",
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "integer": [],
+      "mixed": {
+        "Balance": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "realtabformer",
+    "dataset": "churn2",
+    "problem_type": "classification",
+    "target": "Exited",
+    "columns": {
+      "categorical": [
+        "Exited",
+        "Geography",
+        "Gender",
+        "HasCrCard",
+        "IsActiveMember"
+      ],
+      "continuous": [
+        "RowNumber",
+        "CustomerId",
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "integer": [],
+      "mixed": {
+        "Balance": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "tabulamiddle",
+    "dataset": "churn2",
+    "problem_type": "classification",
+    "target": "Exited",
+    "columns": {
+      "categorical": [
+        "Exited",
+        "Geography",
+        "Gender",
+        "HasCrCard",
+        "IsActiveMember"
+      ],
+      "continuous": [
+        "RowNumber",
+        "CustomerId",
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "integer": [],
+      "mixed": {
+        "Balance": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "autodiff",
+    "dataset": "churn2",
+    "problem_type": "classification",
+    "target": "Exited",
+    "columns": {
+      "categorical": [
+        "Exited",
+        "Geography",
+        "Gender",
+        "HasCrCard",
+        "IsActiveMember"
+      ],
+      "continuous": [
+        "RowNumber",
+        "CustomerId",
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "integer": [],
+      "mixed": {
+        "Balance": [
+          0.0
+        ]
+      },
+      "log": [],
+      "general": [
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary"
+      ],
+      "non_categorical": []
+    }
+  }
+]
