@@ -37,3 +37,12 @@
 [submodule "tools/ctabganplus-main/model"]
 	path = tools/ctabganplus-main/model
 	url = https://github.com/Team-TUD/CTAB-GAN-Plus.git
+[submodule "tools/ctgan-main/ctgan"]
+	path = tools/ctgan-main/ctgan
+	url = https://github.com/sdv-dev/CTGAN.git
+[submodule "tools/tvae-main/ctgan"]
+	path = tools/tvae-main/ctgan
+	url = https://github.com/sdv-dev/CTGAN.git
+[submodule "tools/tabulamiddle-main/model"]
+	path = tools/tabulamiddle-main/model
+	url = https://github.com/zhao-zilong/Tabula.git
