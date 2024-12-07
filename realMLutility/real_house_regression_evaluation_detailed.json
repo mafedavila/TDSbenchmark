@@ -1,0 +1,28 @@
+{
+    "Real Dataset": [
+        {
+            "Regression Model": "Linear Regression",
+            "Explained Variance Score": 0.296236863034925,
+            "Mean Abs Percentage Error": 7.532332960900381e+17,
+            "R2 Score": 0.2956656210759677
+        },
+        {
+            "Regression Model": "Ridge Regression",
+            "Explained Variance Score": 0.28419359295994595,
+            "Mean Abs Percentage Error": 5.182314508200371e+17,
+            "R2 Score": 0.28354215086735435
+        },
+        {
+            "Regression Model": "Lasso Regression",
+            "Explained Variance Score": 0.2966736279992839,
+            "Mean Abs Percentage Error": 7.431620129007265e+17,
+            "R2 Score": 0.2960973383454232
+        },
+        {
+            "Regression Model": "Bayesian Ridge Regression",
+            "Explained Variance Score": 0.015080463036655334,
+            "Mean Abs Percentage Error": 5.6396894641247104e+17,
+            "R2 Score": 0.012308580372019873
+        }
+    ]
+}

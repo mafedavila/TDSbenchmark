@@ -1,0 +1,186 @@
+[
+  {
+    "toolname": "ctgan",
+    "dataset": "wilt",
+    "problem_type": "classification",
+    "target": "class",
+    "columns": {
+      "categorical": [
+        "class"
+      ],
+      "continuous": [
+        "GLCM_pan",
+        "Mean_Green",
+        "Mean_Red",
+        "Mean_NIR",
+        "SD_pan"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "tvae",
+    "dataset": "wilt",
+    "problem_type": "classification",
+    "target": "class",
+    "columns": {
+      "categorical": [
+        "class"
+      ],
+      "continuous": [
+        "GLCM_pan",
+        "Mean_Green",
+        "Mean_Red",
+        "Mean_NIR",
+        "SD_pan"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "ctabganplus",
+    "dataset": "wilt",
+    "problem_type": "classification",
+    "target": "class",
+    "columns": {
+      "categorical": [
+        "class"
+      ],
+      "continuous": [
+        "GLCM_pan",
+        "Mean_Green",
+        "Mean_Red",
+        "Mean_NIR",
+        "SD_pan"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "privbayes",
+    "dataset": "wilt",
+    "problem_type": "classification",
+    "target": "class",
+    "columns": {
+      "categorical": [
+        "class"
+      ],
+      "continuous": [
+        "GLCM_pan",
+        "Mean_Green",
+        "Mean_Red",
+        "Mean_NIR",
+        "SD_pan"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "great",
+    "dataset": "wilt",
+    "problem_type": "classification",
+    "target": "class",
+    "columns": {
+      "categorical": [
+        "class"
+      ],
+      "continuous": [
+        "GLCM_pan",
+        "Mean_Green",
+        "Mean_Red",
+        "Mean_NIR",
+        "SD_pan"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "realtabformer",
+    "dataset": "wilt",
+    "problem_type": "classification",
+    "target": "class",
+    "columns": {
+      "categorical": [
+        "class"
+      ],
+      "continuous": [
+        "GLCM_pan",
+        "Mean_Green",
+        "Mean_Red",
+        "Mean_NIR",
+        "SD_pan"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "tabulamiddle",
+    "dataset": "wilt",
+    "problem_type": "classification",
+    "target": "class",
+    "columns": {
+      "categorical": [
+        "class"
+      ],
+      "continuous": [
+        "GLCM_pan",
+        "Mean_Green",
+        "Mean_Red",
+        "Mean_NIR",
+        "SD_pan"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  },
+  {
+    "toolname": "autodiff",
+    "dataset": "wilt",
+    "problem_type": "classification",
+    "target": "class",
+    "columns": {
+      "categorical": [
+        "class"
+      ],
+      "continuous": [
+        "GLCM_pan",
+        "Mean_Green",
+        "Mean_Red",
+        "Mean_NIR",
+        "SD_pan"
+      ],
+      "integer": [],
+      "mixed": {},
+      "log": [],
+      "general": [],
+      "non_categorical": []
+    }
+  }
+]

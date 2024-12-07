@@ -1,0 +1,5 @@
+Regression Model,Explained Variance Score,Mean Abs Percentage Error,R2 Score
+Linear Regression,1.0,36366.285848778665,1.0
+Ridge Regression,1.0,5202324.998931004,1.0
+Lasso Regression,0.9999999999825424,18550559923007.9,0.999999999982541
+Bayesian Ridge Regression,1.0,13573356.81190625,1.0

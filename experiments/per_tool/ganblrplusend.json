@@ -1,0 +1,38 @@
+[
+  {
+    "toolname": "ganblrplus",
+    "dataset": "california_updated",
+    "problem_type": "regression",
+    "target": "median_house_value",
+    "columns": {
+      "categorical": [
+        "ocean_proximity"
+      ],
+      "continuous": [
+        "longitude",
+        "latitude",
+        "median_income"
+      ],
+      "integer": [
+        "housing_median_age",
+        "total_rooms",
+        "total_bedrooms",
+        "population",
+        "households"
+      ],
+      "mixed": {},
+      "log": [],
+      "general": [
+        "longitude",
+        "latitude",
+        "housing_median_age",
+        "total_rooms",
+        "total_bedrooms",
+        "population",
+        "households",
+        "median_income"
+      ],
+      "non_categorical": []
+    }
+  }
+]

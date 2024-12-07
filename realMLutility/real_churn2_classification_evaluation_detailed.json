@@ -1,0 +1,76 @@
+{
+    "Real Dataset": [
+        {
+            "Classifier": "Perceptron",
+            "Accuracy": 0.1965,
+            "AUC": 0.5,
+            "F1 Score Micro": 0.1965,
+            "F1 Score Macro": 0.1642290012536565,
+            "F1 Score Weighted": 0.064541997492687
+        },
+        {
+            "Classifier": "MLP",
+            "Accuracy": 0.804,
+            "AUC": 0.5012722646310432,
+            "F1 Score Micro": 0.804,
+            "F1 Score Macro": 0.44818421637935646,
+            "F1 Score Weighted": 0.7171508174475142
+        },
+        {
+            "Classifier": "Gaussian NB",
+            "Accuracy": 0.7905,
+            "AUC": 0.5188219162031253,
+            "F1 Score Micro": 0.7905,
+            "F1 Score Macro": 0.4995147443075775,
+            "F1 Score Weighted": 0.731158088839119
+        },
+        {
+            "Classifier": "Linear SVM",
+            "Accuracy": 0.8035,
+            "AUC": 0.5,
+            "F1 Score Micro": 0.8035,
+            "F1 Score Macro": 0.4455225949542556,
+            "F1 Score Weighted": 0.7159548100914888
+        },
+        {
+            "Classifier": "Radical SVM",
+            "Accuracy": 0.8035,
+            "AUC": 0.5,
+            "F1 Score Micro": 0.8035,
+            "F1 Score Macro": 0.4455225949542556,
+            "F1 Score Weighted": 0.7159548100914888
+        },
+        {
+            "Classifier": "Log Reg",
+            "Accuracy": 0.8035,
+            "AUC": 0.5,
+            "F1 Score Micro": 0.8035,
+            "F1 Score Macro": 0.4455225949542556,
+            "F1 Score Weighted": 0.7159548100914888
+        },
+        {
+            "Classifier": "RF",
+            "Accuracy": 0.8665,
+            "AUC": 0.709322762532242,
+            "F1 Score Micro": 0.8665,
+            "F1 Score Macro": 0.7455154241957644,
+            "F1 Score Weighted": 0.8520239630110957
+        },
+        {
+            "Classifier": "KNN",
+            "Accuracy": 0.7675,
+            "AUC": 0.5112374139222328,
+            "F1 Score Micro": 0.7675,
+            "F1 Score Macro": 0.49832099364809646,
+            "F1 Score Weighted": 0.7213812760448275
+        },
+        {
+            "Classifier": "DT",
+            "Accuracy": 0.7915,
+            "AUC": 0.6962913525590175,
+            "F1 Score Micro": 0.7915,
+            "F1 Score Macro": 0.6860789567884297,
+            "F1 Score Weighted": 0.7965027242248804
+        }
+    ]
+}
