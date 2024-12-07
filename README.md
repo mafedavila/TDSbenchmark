@@ -10,6 +10,9 @@ Each tool needs a repo with _toolname_-main and inside:
 - requirements.txt
 - special-torch.txt (optional for tools that need special torch library before installing reqs.)
 
+Put the real dataset inside the data folder as a file with .csv extension.
+If you want to compare several tools, pre-processing the original dataset and scaling it is advised.
+
 ## How to run
 Inside TDSbenchmark run:
 ```
@@ -23,7 +26,7 @@ The benchmark will run te shell script "monitor_usage" to create a .csv file wit
 ### Example
 ```
 python bechmark.py
-experiments/adult.json
+experiments/per_dataset/adult.json
 ```
 
 ### Results
