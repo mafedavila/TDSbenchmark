@@ -34,3 +34,6 @@
 [submodule "tools/tabsyn-main/model"]
 	path = tools/tabsyn-main/model
 	url = https://github.com/zhao-zilong/Tabula.git
+[submodule "tools/ctabganplus-main/model"]
+	path = tools/ctabganplus-main/model
+	url = https://github.com/Team-TUD/CTAB-GAN-Plus.git
