@@ -4,3 +4,12 @@
 [submodule "tools/ctabganplus-main/model"]
 	path = tools/ctabganplus-main/model
 	url = https://github.com/Team-TUD/CTAB-GAN-Plus.git
+[submodule "tools/ctgan-main/ctgan"]
+	path = tools/ctgan-main/ctgan
+	url = https://github.com/sdv-dev/CTGAN.git
+[submodule "tools/ganblr-main/ganblr"]
+	path = tools/ganblr-main/ganblr
+	url = https://github.com/tulip-lab/ganblr.git
+[submodule "tools/ganblrplus-main/ganblr"]
+	path = tools/ganblrplus-main/ganblr
+	url = https://github.com/tulip-lab/ganblr.git
