@@ -17,6 +17,9 @@ python benchmark.py
 ```
 Then, as prompted, provide the experiment .json file. For examples of .json configuration files see the "experiments" folder.
 
+The benchmark will run te shell script "monitor_usage" to create a .csv file with the resource performance (CPU, GPU, memory, time) during the benchmark. For iOS, use monitor_usageMac.sh.
+
+
 ### Example
 ```
 python bechmark.py
