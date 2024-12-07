@@ -1,1 +1,0 @@
-The privacy metrics for each tool are saved in this repository.
