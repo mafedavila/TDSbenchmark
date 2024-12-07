@@ -13,3 +13,21 @@
 [submodule "tools/ganblrplus-main/ganblr"]
 	path = tools/ganblrplus-main/ganblr
 	url = https://github.com/tulip-lab/ganblr.git
+[submodule "tools/goggle-main/goggle"]
+	path = tools/goggle-main/goggle
+	url = https://github.com/tennisonliu/GOGGLE.git
+[submodule "tools/great-main/be_great"]
+	path = tools/great-main/be_great
+	url = https://github.com/kathrinse/be_great.git
+[submodule "tools/realtabformer-main/model"]
+	path = tools/realtabformer-main/model
+	url = https://github.com/worldbank/REaLTabFormer.git
+[submodule "tools/tabddpm-main/tab-ddpm"]
+	path = tools/tabddpm-main/tab-ddpm
+	url = https://github.com/yandex-research/tab-ddpm.git
+[submodule "tools/tabsyn-main/tabsyn"]
+	path = tools/tabsyn-main/tabsyn
+	url = https://github.com/amazon-science/tabsyn.git
+[submodule "tools/tabulamiddle-main/model"]
+	path = tools/tabulamiddle-main/model
+	url = https://github.com/zhao-zilong/Tabula.git

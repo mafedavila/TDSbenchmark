@@ -4,7 +4,7 @@ import pandas as pd
 import torch
 import json
 import numpy as np
-from src.goggle.GoggleModel import GoggleModel
+from goggle.src.goggle.GoggleModel import GoggleModel
 from sklearn.model_selection import train_test_split
 
 def check_gpu():
