@@ -1,6 +1,6 @@
 # TDSbenchmark
 This repository benchmarks tools for tabular data synthesis, providing insights and comparisons to help users identify the most suitable tool for generating synthetic data tailored to their specific use case.
-This repository is the code for the paper: **Benchmarking Tabular Data Synthesis: A Comprehensive Evaluation Across Models, Metrics, and Datasets**.
+This repository is the code for the paper: **Benchmarking Tabular Data Synthesis: Evaluating Tools, Metrics, and Datasets on Commodity Hardware for End-Users**.
 
 ## Necessary files per tool
 Each tool needs a repo with _toolname_-main and inside:
