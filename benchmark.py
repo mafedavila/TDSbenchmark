@@ -9,6 +9,7 @@ from evaluation.statistics import evaluate_all_datasets as statistics_main
 from evaluation.detection import evaluate_all_datasets as detection_main
 from evaluation.privacy import evaluate_all_datasets as privacy_main
 from evaluation.correlations import evaluate_all_datasets as correlations_main
+from validation.friedman import variance, bootstrap, friedman
 
 # Function to create and activate a conda environment
 def create_and_activate_conda_env(tool_name, tool_path):
@@ -191,6 +192,69 @@ def evaluate_synthetic_data(tool, dataset, performance_dir, task_type, target_co
     print(f'Evaluating Correlations for all datasets of {dataset}')
     correlations_main(dataset, tool, performance_dir, categorical_columns, continuous_columns)
 
+def validate_results(performance_dir):
+
+    print("Starting statistical validation...")
+
+    results_file = os.path.join(
+        performance_dir,
+        "all_results.csv"
+    )
+
+    if not os.path.exists(results_file):
+        raise FileNotFoundError(
+            f"{results_file} not found. "
+            "Evaluation results cannot be validated."
+        )
+
+    # Load all evaluation results
+    results = pd.read_csv(results_file)
+
+    # Expected format:
+    # dataset | tool | metric | repetition | value
+
+    validation_dir = os.path.join(
+        performance_dir,
+        "validation"
+    )
+
+    os.makedirs(validation_dir, exist_ok=True)
+
+    variance_results = variance(results)
+
+    variance_results.to_csv(
+        os.path.join(
+            validation_dir,
+            "mean_variance.csv"
+        ),
+        index=False
+    )
+
+    bootstrap_results = bootstrap(
+        results,
+        n_bootstrap=1000
+    )
+
+    bootstrap_results.to_csv(
+        os.path.join(
+            validation_dir,
+            "bootstrap_confidence_intervals.csv"
+        ),
+        index=False
+    )
+
+    friedman_results = friedman(results)
+
+    friedman_results.to_csv(
+        os.path.join(
+            validation_dir,
+            "friedman_test.csv"
+        ),
+        index=False
+    )
+
+    print("Statistical validation completed.")
+
 def process_multiple_tools(json_path):
     tools_dir = 'tools'
     data_dir = 'data'
@@ -276,9 +340,11 @@ def process_multiple_tools(json_path):
 
             print(f"Benchmarking for {tool_choice} on {dataset_choice} completed.")
 
+            # Statistical significance validation after all experiments
+            validate_results(performance_dir)
+
         except Exception as e:
             print(f"An error occurred for {tool_choice} on {dataset_choice}: {e}")
-
 
 def main():
     print("Please provide the path to the experiment JSON file:")
