@@ -340,11 +340,11 @@ def process_multiple_tools(json_path):
 
             print(f"Benchmarking for {tool_choice} on {dataset_choice} completed.")
 
-            # Statistical significance validation after all experiments
-            validate_results(performance_dir)
-
         except Exception as e:
             print(f"An error occurred for {tool_choice} on {dataset_choice}: {e}")
+
+        # Statistical significance validation after all experiments
+        validate_results(performance_dir)
 
 def main():
     print("Please provide the path to the experiment JSON file:")
