@@ -1,6 +1,6 @@
 # TDSbenchmark
 This repository benchmarks tools for tabular data synthesis, providing insights and comparisons to help users identify the most suitable tool for generating synthetic data tailored to their specific use case.
-This repository is the code for the paper: **Benchmarking Tabular Data Synthesis: Evaluating Tools, Metrics, and Datasets on Commodity Hardware for End-Users**.
+This repository is the code for the paper: **Benchmarking Tabular Data Synthesis: Evaluating Tools, Metrics, and Datasets on Prosumer Hardware for End-Users**.
 
 ## Necessary files per tool
 Each tool needs a repo with _toolname_-main and inside:
@@ -32,7 +32,7 @@ experiments/per_dataset/adult.json
 ### Results
 When finished, benchmark saves:
 - A fake dataset under fake_datasets/_toolname_/_toolname_ _dataset_.csv
-- Performance files: one for CPU and memory performance, one for GPU performance and several for other evaluation metrics. For a complete list of the evaluation metrics, see the original paper.
+- Computational Performance files: one for CPU and memory performance, one for GPU performance and several for other evaluation metrics. For a complete list of the evaluation metrics, see the original paper.
 - For result plots of our benchmark, see "results".
 
 
